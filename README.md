@@ -15,19 +15,28 @@ This project leverages the power of Large Language Models (LLMs) to automaticall
 ## **Installation**
 
 1. **Clone the repository:**  
+
+```
    git clone \<your-repository-url\>  
    cd \<your-repository-name\>
+```
 
 2. Create and activate the conda environment:  
    Use the requirements.yml file (included in the project) to create the new environment:  
+
+```
    conda env create \-f requirements.yml
+```
 
    Then activate it:  
    conda activate llm-tester
 
 3. Set up your environment variables:  
    Create a .env file in the root of the project and add your API keys:  
+
+```
    OPENAI\_API\_KEY="your\_openai\_api\_key"
+```
 
 ## **Usage**
 

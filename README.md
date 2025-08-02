@@ -28,8 +28,11 @@ This project leverages the power of Large Language Models (LLMs) to automaticall
    conda env create \-f requirements.yml
 ```
 
-   Then activate it:  
+   Then activate it: 
+
+``` 
    conda activate llm-tester
+```
 
 3. Set up your environment variables:  
    Create a .env file in the root of the project and add your API keys:  
